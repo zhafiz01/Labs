@@ -1,0 +1,48 @@
+h1 {
+    font-family: "Seaweed Script", cursive;
+  }
+  
+  body {
+    font-family: "Nanum Brush Script", cursive;
+    background-color: #ccc;
+  }
+  
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .container {
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px #ddd;
+  }
+  
+  .ship-container {
+    float: right;
+    margin: 0 0 30px 30px;
+    transform: rotate(3deg);
+  }
+  
+  .chest-container {
+    float: left;
+    margin: 0 30px 30px 0;
+    transform: rotate(-3deg);
+  }
+  
+  .ship-img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .chest-img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+  
