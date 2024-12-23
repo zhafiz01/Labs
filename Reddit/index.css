@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #2f77bb;
+    color: #333;
+    margin: 20;
+}
+
+header {
+    background-color: #ff6f00;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin: 15px;
+}
+
+.post img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-title {
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
